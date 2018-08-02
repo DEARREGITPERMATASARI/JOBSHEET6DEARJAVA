@@ -41,11 +41,14 @@ package Latihan;
             System.out.println("nilai a sama dengan 5");
         
         System.out.println("\nIF..3");
-        if ( a > 5) {
-            System.out.println("isi variable a : " + a);
+        if ( a > 5) 
         
+            System.err.println("\nIF..ELSE..");
+        if ( a < 5 ) {
+            System.out.println("isi variable a : " + a);
             System.out.println("nilai a lebih besar dari 5");
         }
+        else System.out.println(" nilai a lebih dari atau sama dengan 5 ");
         
     }
     
