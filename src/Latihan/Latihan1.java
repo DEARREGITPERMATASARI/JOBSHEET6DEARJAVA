@@ -76,6 +76,16 @@ package Latihan;
     }else if (a == 6) {
              System.out.println("nilai a sama dengan 6");
         
+             System.out.println("\nNested");
+    if ( a < 7 ) {
+            System.out.println("nilai kurang dari 7");
+            
+    if (a > 2)
+            System.out.println("nilai lebih dari 2");
+    
+   if (a < 4)
+            System.out.println("nilai kurang dari 4");
+    }
     }
         }
     
