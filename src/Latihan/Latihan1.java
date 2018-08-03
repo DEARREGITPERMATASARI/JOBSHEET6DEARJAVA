@@ -85,7 +85,7 @@ package Latihan;
     
    if (a < 4)
             System.out.println("nilai kurang dari 4");
-   
+    }
         System.out.println("\nSWITCH..CASE");
         switch (a) {
             
@@ -102,11 +102,10 @@ package Latihan;
                      
                      String grade = ( nilai < 75 ) ? " belum kompeten " : "kompeten" ;
                      System.out.println( nilai + " => " + grade);
-                
+                  
                       
         }
     }
     }
         }
-    
-}
+   
