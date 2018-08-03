@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class SaranBahan2Resep {
         public static void main(String[] args) {
-        String identitas = "Salsabila Fawnia Ramadhani Khoirunisa / XRPL5 / 40";
+        String identitas = "DEAR REGITA PERMATASARI / X RPL 5 / 11";
         System.out.println("Identitas : "+ identitas);
         
         System.out.println("\nSaran Resep dari Bahan Milik Anda\n");

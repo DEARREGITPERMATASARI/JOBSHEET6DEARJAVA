@@ -63,8 +63,12 @@ public class CobaPercabangan {
             
     }else if (a == 6) {
              System.out.println("nilai a sama dengan 6");
+             
+    } else {
+            System.out.println("nilai a lebih dari 6");
+             
         
-             System.out.println("\nNested");
+             System.out.println("\nNested IF");
     if ( a < 7 ) {
             System.out.println("nilai kurang dari 7");
             
@@ -83,7 +87,7 @@ public class CobaPercabangan {
             case 4 : System.out.println("nilai a => 3 atau 4"); break;
             case 5 : System.out.println("nilai a => 5"); break;
             default: System.out.println("nilai a bukan antara 1-5"); 
-        
+        }
         int nilai ; 
                      System.out.print ( "\nNilai Anda ? ");
                      nilai = scanner.nextInt();
@@ -95,6 +99,6 @@ public class CobaPercabangan {
         }
     }
     }
-        }
+        
 
 
