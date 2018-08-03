@@ -95,6 +95,15 @@ package Latihan;
             case 4 : System.out.println("nilai a => 3 atau 4"); break;
             case 5 : System.out.println("nilai a => 5"); break;
             default: System.out.println("nilai a bukan antara 1-5"); 
+        
+        int nilai ; 
+                     System.out.print ( "\nNilai Anda ? ");
+                     nilai = scanner.nextInt();
+                     
+                     String grade = ( nilai < 75 ) ? " belum kompeten " : "kompeten" ;
+                     System.out.println( nilai + " => " + grade);
+                
+                      
         }
     }
     }
