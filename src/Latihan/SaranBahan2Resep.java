@@ -15,6 +15,11 @@ public class SaranBahan2Resep {
     System.out.println ("Identitas : " + identitas);
         System.out.print ("\nSaran Reseo dari Bahan Milik Anda\n");
         
-    
+        System.out.println("Bahan Pertama");
+        System.out.println("1. Pisang");
+        System.out.println("2. Telur");
+            System.out.print ("Masukkan no pilihan Anda :") ;
+            int bahanl = scanner.nextInt();
+            
 }
 }
